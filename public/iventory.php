@@ -55,6 +55,14 @@
                         <?php } ?>
                         </tbody>
                     </table>
+                    <?php 
+                        $sql = 'SELECT * FROM bicycles';
+                        $result = $database->query($sql);
+                        $row = $result->fetch_assoc();
+                        $result->free();
+
+                        echo "Brand: " . $row['brand'];
+                    ?>
                 </div>
             </div>
         </div>

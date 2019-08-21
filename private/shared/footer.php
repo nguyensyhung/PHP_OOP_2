@@ -13,3 +13,4 @@
 <?php } else { ?>
     <?php include(SHARED_PATH . '/public_copyright.php'); ?>
 <?php }?>
+<?php db_disconnect($database); ?>
