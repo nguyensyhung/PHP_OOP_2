@@ -1,0 +1,159 @@
+a.text-decoration:hover {
+    text-decoration: none;
+}
+
+.header a h1.title:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.header h1.title {
+    font-family: 'Bilbo Swash Caps', cursive;
+    color: orange;
+    transition: 0.5s;
+}
+
+.header img.logo {
+    margin-top: 50px;
+    width: 75px;
+}
+
+
+/* Css menu */
+
+.menu-store {
+    margin-bottom: 26px;
+    margin-top: 20px;
+}
+
+a.m {
+    transition: 0.5s;
+}
+
+a.m:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+li.main2 {
+    margin-right: 32%;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid gray;
+    width: 166px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+ul.sub-menu {
+    list-style: none;
+}
+
+li.main1 {
+    margin-left: 33%;
+    float: left;
+    border: 1px solid gray;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+}
+
+
+/* END Css menu */
+
+
+/* CSSImage */
+
+.nen:hover,
+.image1 .nen:hover {
+    opacity: 1;
+}
+
+.nen {
+    position: relative;
+    background: #000000a1;
+    height: 581px;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.image img {
+    background-size: cover;
+    height: 581px;
+    width: 100%;
+    position: absolute;
+}
+
+.fontroboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* END Css Image */
+
+
+/* CSS Phan Footer */
+
+.footer {
+    background: #333333e0;
+    color: #ffffffb0;
+}
+
+
+/* END CSS Footer */
+
+
+/* CSS Phần trang Ivetory */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container.conten-bike {
+    min-height: 598px;
+}
+
+img.block-image {
+    width: 174px;
+    margin-left: 19%;
+}
+
+.content {
+    min-height: 234px;
+}
+
+.row.block-tren {
+    margin-bottom: 30px;
+}
+
+
+/* END CSS Inventory */
+
+
+/* CSS Phần trang About */
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+.image1 {
+    background: url(../images/bike2.jpg);
+    background-size: cover;
+    height: 880px;
+}
+
+.image1 .nen {
+    position: absolute;
+    background: #000000a1;
+    height: 880px;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+} */
+
+
+/* END CSS About */
